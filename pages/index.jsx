@@ -16,21 +16,12 @@ export default function Home() {
               <div className="flex flex-col lg:justify-start justify-center items-center lg:items-start mt-5 lg:mt-0 w-full">
                 <div className="flex items-center">
                 <p className="flex items-center text-white text-4xl font-semibold">
-                  Umut Bayraktar
+                  n0ki
                 </p>
-                  <Tippy content={`Online`} animation="shift-away" arrow={false}>
-                    <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
-                          <i className={`fa fa-circle text-online mr-2`} />Online
-                    </span>
-                  </Tippy>
-            
                 </div>
-                <p className="text-white/50 text-md mt-3">
-I am a professional editor and software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management.
-                </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="umutbayraktar" src={`https://media.discordapp.net/attachments/737348411568685066/996841172372824184/YT_AVATAR_NET.jpg`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="nn0ki" src={`https://pbs.twimg.com/profile_images/1611408855757656064/GMeTm8oa.jpg`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Online" animation="shift-away" arrow={false}>
                     <i className={`fad fa-circle text-2xl text-online`} />
@@ -40,12 +31,12 @@ I am a professional editor and software developer. I have been professionally in
               
             </div>
             <br></br>
-            <span style={{ zIndex: '-1' }} className="text-white/5 absolute bottom-3 left-7 text-xl sm:text-2xl md:text-4xl lg:text-3xl font-semibold">Community Manager</span>
+            {/* <span style={{ zIndex: '-1' }} className="text-white/5 absolute bottom-3 left-7 text-xl sm:text-2xl md:text-4xl lg:text-3xl font-semibold">Community Manager</span> */}
           </div>
       </div>
 
 
-        <div className="py-20">
+        {/* <div className="py-20">
         <p className="text-3xl text-white font-semibold">GitHub Repositories</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-4 items-center mt-2">
@@ -124,7 +115,7 @@ I am a professional editor and software developer. I have been professionally in
                 </div>
               ))}
         </div>
-      </div>
+      </div> */}
 
 
     </>

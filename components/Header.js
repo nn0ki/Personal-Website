@@ -1,18 +1,15 @@
 
 const items = [
-    { icon: 'fab fa-youtube', link: 'https://youtube.com/UmutBayraktarYT' },
-    { icon: 'fab fa-twitch', link: 'https://twitch.com/umutyzx' },
-    { icon: 'fab fa-discord', link: 'https://discord.com/users/615029465726320654' },
-    { icon: 'fab fa-instagram', link: 'https://instagram.com/umutxyp' },
-    { icon: 'fab fa-facebook', link: 'https://facebook.com/umutxyp' },
-    { icon: 'fab fa-github', link: 'https://github.com/umutxyp' },
+    { icon: 'fab fa-youtube', link: 'https://youtube.com/@n0kii' },
+    { icon: 'fab fa-discord', link: 'https://discord.com/users/994159473558040587' },
+    { icon: 'fab fa-twitter', link: 'https://twitter.com/nn0ki' },
+    { icon: 'fab fa-github', link: 'https://github.com/nn0ki' },
   ]
 
 const navItems = [
     { icon: 'fal fa-home', active: 'fa fa-home', label: 'Home', href: '/' },
     { icon: 'fal fa-compass', active: 'fa fa-compass', label: 'Projects', href: '/projects' },
-    { icon: 'fal fa-phone', active: 'fa fa-phone', label: 'Contact', href: '/contact' },
-    { icon: 'fal fa-rss', active: 'fa fa-rss', label: 'Blogs', href: 'https://blog.umut.live' }
+    { icon: 'fal fa-phone', active: 'fa fa-phone', label: 'Contact', href: '/contact' }
 ]
 
 import Link from 'next/link';
@@ -23,7 +20,7 @@ const Header = () => {
     return <>
         <div className="w-full border-b-2 border-neutral-800/20 pb-2">
             <div className="flex flex-col md:flex-row w-full items-center md:justify-between">
-                <p className="font-semibold font-Poppins text-xl">UB</p>
+                <p className="font-semibold font-Poppins text-xl">n0ki</p>
                 <div className="flex items-center space-x-2">
                     {items.map(item => (
                         <a key={item.link} href={item.link} target="_blank" rel="noreferrer" className="flex items-center justify-center hover:bg-neutral-700/20 rounded-xl transition-all duration-150 p-2 px-3">

@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
 
-        {/* <div className="py-20">
+        <div className="py-20">
         <p className="text-3xl text-white font-semibold">GitHub Repositories</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-4 items-center mt-2">
@@ -115,7 +115,7 @@ export default function Home() {
                 </div>
               ))}
         </div>
-      </div> */}
+      </div>
 
 
     </>

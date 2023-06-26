@@ -37,10 +37,17 @@ __webpack_require__.r(__webpack_exports__);
         },
         {
             id: 4,
-            image: "https://uploads-ssl.webflow.com/630e19e7362cbc900828ce51/630e19e7362cbc688728d023_BlockX%20typo.svg",
+            image: "https://explorer.nodexcapital.com/logos/blockx.png",
             name: "BlockX",
             description: "An EVM+Cosmos Layer 1 blockchain ecosystem built for lightning-fast transactions and low gas fees, welcoming developers to build dApps seamlessly, fueled by multi-chain interoperability, sovereign identity, and off-chain oracles.",
             link: "https://www.blockxnet.com/"
+        },
+        {
+            id: 5,
+            image: "https://avatars.githubusercontent.com/u/72269913?s=208&v=4",
+            name: "Pactus",
+            description: "Pactus is built on the principle that a fair and transparent system can only be achieved through decentralization. Unlike many other blockchain platforms, Pactus aims to eliminate the potential for centralization and manipulation by removing the need for delegation and miners.",
+            link: "https://pactus.org/"
         }
     ];
     res.status(200).json(data);

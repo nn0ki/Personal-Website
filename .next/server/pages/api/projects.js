@@ -48,6 +48,13 @@ __webpack_require__.r(__webpack_exports__);
             name: "Pactus",
             description: "Pactus is built on the principle that a fair and transparent system can only be achieved through decentralization. Unlike many other blockchain platforms, Pactus aims to eliminate the potential for centralization and manipulation by removing the need for delegation and miners.",
             link: "https://pactus.org/"
+        },
+        {
+            id: 6,
+            image: "https://pbs.twimg.com/profile_images/1623574373868134402/itDrVBK9_400x400.jpg",
+            name: "Creditcoin",
+            description: "Build your credit operations on a blockchain tailored for auditability, transparency and trust - connecting borrowers and lenders across Web3.",
+            link: "https://creditcoin.org/"
         }
     ];
     res.status(200).json(data);
